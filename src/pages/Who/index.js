@@ -1,10 +1,7 @@
-import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
-import { FiLogIn } from 'react-icons/fi'
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 import './styles.css';
-
-import api from '../../services/api';
 
 export default function Who(){
   const history = useHistory();

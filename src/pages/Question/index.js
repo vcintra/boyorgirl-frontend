@@ -1,7 +1,7 @@
 import React from 'react';
 import Quiz from 'react-quiz-component';
 import { quiz } from './quiz';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 import './styles.css';
 
